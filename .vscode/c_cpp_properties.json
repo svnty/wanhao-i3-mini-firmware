@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/include",
+                "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/Marlin",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/.piolibdeps/megaatmega2560/U8glib/src",
+                "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/include",
+                    "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/Marlin",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3/.piolibdeps/megaatmega2560/U8glib/src",
+                    "/Users/admin/Downloads/i3Mini-master/i3mini-wanhao-v1.3",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/admin/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60109",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/admin/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
